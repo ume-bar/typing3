@@ -20,9 +20,11 @@
     {{ code }}
     <!-- <div :style="{ background: 'green', width: '100px', height: '100px' } "> -->
         <!-- <div :style="{ background: background, width: width, height: height, border: '10px', borderStyle: 'solid', borderColor: 'silver', borderRadius: '100px'} "></div> -->
-        <div :style="{ background: background, width: size, height: size, border: '10px', borderStyle: 'solid', borderColor: 'silver', borderRadius: '100px'} ">
+        <!-- <div v-for="box in boxColors" :class="changeColor(box.cColor)">  -->
+        <div :style="{background: background, width: size, height: size, border: '10px', borderStyle: 'solid', borderColor: 'silver', borderRadius: '100px'} ">
             Hello World!!
         </div>
+        <!-- </div> -->
   </div>
 </body>
 <script src="https://unpkg.com/vue@2"></script>
